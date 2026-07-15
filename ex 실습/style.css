@@ -1,0 +1,58 @@
+/* box1 => 반응형 */
+.box1 {
+    width: 300px; height: 300px;
+    position: fixed;
+    background-color: #dddddd;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+}
+body {height: 100vh;}
+body:hover .box1 {
+    transform: translate(-40% , -40%);
+}
+/* box2 => 반응형 X  */
+.box2 {
+    background-color: green;
+    width: 61px; height: 20px;
+    position: absolute;
+    left:75%; top: 26px;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+.box2:hover { transform: translate(0);}
+/* box2 => 반응형 X  */
+.line1 {
+    border: 1px solid #000;
+    position: relative;
+    transform: translateY(25px);
+}
+/* box1 => 반응형 */
+.width {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% , 100px);
+}
+/* box2 => 반응형 X  */
+.h-ln1, .h-ln2, .h-ln3, .h-ln4 {
+    border-right: 1px solid #000;
+    position: absolute;
+    height: 50px; top: 50%;
+    transform: translateY(-50%);
+}
+/* box2 => 반응형 X  */
+/* 기존 px 대신 % 적용 (기준: 1920px) */
+.h-ln1 { left: 18.75%; }
+.h-ln2 { left: 39.58%; }
+.h-ln3 { left: 56.25%; }
+.h-ln4 { left: 75%; }
+/* box2 => 반응형 X  */
+.h-ln1::after{content: "360";}
+.h-ln2::after{content: "760";}
+.h-ln3::after{content: "1080";}
+.h-ln4::after{content: "1440";}
+.h-ln::after {
+    position: absolute;
+    top: 100%; left: 50%;
+    transform: translateX(-50%);
+}
