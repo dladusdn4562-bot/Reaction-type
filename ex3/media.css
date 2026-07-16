@@ -1,0 +1,24 @@
+/* (실무) 360 사이즈에서 가장 많이 디자인함  */
+/* (포트폴리오) 화면이 길어야 예뻐서 320*720 */
+/* 0 ~ 320 */
+@media screen and (max-width:1080px) {
+    .s1-cd3-con {
+        flex-direction: column;
+    }
+    .cd3-in {
+        height: 300px; width: 100%;
+        flex-basis: auto;
+    }
+    .container { width: 100%;}
+}
+
+@media screen and  (max-width: 320px) {
+    header {
+        height: 80px;
+        background-color: #929292;
+    }
+    footer {
+        height: 210px;
+        background-color: #929292;
+    }
+}
