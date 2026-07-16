@@ -21,7 +21,6 @@ header {
 }
 .s1-cd3-con {
     display: flex; gap: 40px;
-    flex-wrap: wrap;
 }
 .cd3-in {
     background-color: #5f5f5f;
