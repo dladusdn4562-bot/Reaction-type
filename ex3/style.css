@@ -3,7 +3,9 @@
 .tr-5{transition: 0.5s;}
 .tr-7{transition: 0.7s;}
 .container{
+    /* container는 최소 320px 최대 1440px 유연하게 동작 */
     max-width: 1440px;
+    min-width: 320px;
     width: 100%;
     padding-left: 80px; padding-right: 80px;
     box-sizing: border-box;
