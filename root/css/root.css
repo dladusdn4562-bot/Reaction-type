@@ -1,3 +1,25 @@
 :root {
     --color-background-tertiary: #faf9f5;
+    /* 메인컬러 */
+    --color-text-info:#3266ad;
+    --color-background-danger:#b53333;
+    --color-text-success:#265b19;
+    /* 보조컬러 */
+    --color-ring-info:#99b3d6;
+    --color-ring-success:#acc898;
+}
+
+/* STEP 01 · 공통 기반 + 상단 안내 바 + 헤더 */
+:root {
+  --main: var(--color-text-success);
+  --blue-dark: #2441e6;
+  --ink: #333;
+  --muted: #6f7178;
+  --line: #e3e4e8;
+  --soft-blue: #eef5ff;
+  --soft-gray: #f7f7f7;
+  --container: 80rem;
+  --radius-sm: .625rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
 }
