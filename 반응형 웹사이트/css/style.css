@@ -8,3 +8,8 @@ body {height: 30px;}
     align-items: center; gap: 8px;
 }
 
+/* 너비 적용이 안 되는 이유 : 이미지나 svg 형대가 아니고 폰트 형대이기 때문에 글자처럼 폰트 사이즈 속성을 사용해야함
+span 태그는 inline 속성을 가지기 때문에 너비나 높이 속성 적용 X */
+/* 해결 방법
+font-size로 크기 변경 
+font-weight로 두껍게 변경 */
