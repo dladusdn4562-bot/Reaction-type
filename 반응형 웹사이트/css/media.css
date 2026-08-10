@@ -1,3 +1,16 @@
+/* 1241~n값 */
+.user-box-1240 {display: none;}
+
+/* 0~1240 */
+@media screen and (max-width:1240px) {
+    .user-box {
+        display: none;
+    }
+    .user-box-1240 {
+        display: block;
+    }
+}
+
 /* 0~1080 */
 /* @media에서는 css 변수를 사용할 수 없다. 아래와 같은
 방슥으로 코드 해결해야한다.  */
@@ -11,12 +24,12 @@
 /* 올바른 방식 */
 @media screen and (max-width:1080px) {
     header {
-        /* min-width: ; */
+        min-width:var(--gridM-1080) ;
+    }
+    header .con {
         max-width:var(--GW-S) ;
         padding-left: var(--padding-grid-medium);
         padding-right: var(--padding-grid-medium);
         background-color: blue;
-        margin-left: auto;
-        margin-right: auto;
     }
 }

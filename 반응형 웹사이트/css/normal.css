@@ -59,7 +59,7 @@ body {
     color: var(--ink);
     background-color: var(--color-background-tertiary);
     font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
-    word-break: keep-all;
+    /* word-break: keep-all; */
 }
 *,
 *::before,
