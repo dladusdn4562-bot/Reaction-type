@@ -7,7 +7,7 @@
         display: none;
     }
     .user-box-1240 {
-        display: block;
+        display: flex ;
     }
 }
 
@@ -16,8 +16,8 @@
 방슥으로 코드 해결해야한다.  */
 /* @media screen and (max-width:var(--grid--1080)){
     header {
-        padding-left: var(--padding-grid-medium);
-        padding-right: var(--padding-grid-large);
+        padding-left: var(--padding-grid-MEDIUM);
+        padding-right: var(--padding-grid-LARGE);
     }
 } */
 
@@ -28,8 +28,8 @@
     }
     header .con {
         max-width:var(--GW-S) ;
-        padding-left: var(--padding-grid-medium);
-        padding-right: var(--padding-grid-medium);
+        padding-left: var(--padding-grid-MEDIUM);
+        padding-right: var(--padding-grid-MEDIUM);
         background-color: blue;
     }
 }
