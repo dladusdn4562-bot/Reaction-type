@@ -55,6 +55,7 @@
   --bd-radius2: var(--num2);
   --bd-radius4: var(--num4);
   --bd-radius6: var(--num6);
+  --bd-radius10: var(--num10);
 
   /* 그리드 */
   --G-center: var(--num0) var(--auto);

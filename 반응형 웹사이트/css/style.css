@@ -46,7 +46,12 @@ header .con {
 .user-menu-box {
     align-self: center;
     display: flex;
-    border: 1px solid red ;
+    /* border: 1px solid #ff0000 ; */
+}
+.menu-icon {
+    border: 0.5px solid #333;
+    border-radius:var(--bd-radius10);
+    padding: 2px;
 }
 .se-box {
     display: flex;

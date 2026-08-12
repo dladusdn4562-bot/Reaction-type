@@ -1,5 +1,14 @@
+/* 0~1380 */
+@media screen and (max-width : 1380px) {
+    .SMALL-li-header {
+        font-size: var(--text-sm);
+    }
+}
+
 /* 1241~n값 */
-.user-box-1240 {display: none;}
+.user-box-1240 {
+    display: none;
+}
 
 /* 0~1240 */
 @media screen and (max-width:1240px) {
@@ -30,6 +39,33 @@
         max-width:var(--GW-S) ;
         padding-left: var(--padding-grid-MEDIUM);
         padding-right: var(--padding-grid-MEDIUM);
-        background-color: blue;
+        background-color: rgb(132, 132, 221);
+    }
+}
+.menu1-768 {
+    display: none;
+}
+
+/* 0  ~ 768*/
+@media screen and (max-width: 768px) { 
+    header .con{
+        justify-content: center;
+        flex-direction: column;
+        border: 1px solid red;
+    }
+    .menu1-768 {
+        display: flex;
+        border: 1px solid red;
+    }
+    .menu1-768 ul {
+        width: 100%;
+    }
+    .menu1-768 li {
+        justify-content: center;
+        flex-grow: 1;
+    }
+    .user-box-1240 {
+        display: none;
+        border: 1px solid red;
     }
 }
